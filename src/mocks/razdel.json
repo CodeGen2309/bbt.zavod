@@ -1,0 +1,18 @@
+[
+  { "title": "Тротуарная плитка",                "img": "/img/razdel/trot.jpg"},
+  { "title": "Двери межкомнатные",               "img": "/img/razdel/doors.jpg"},
+  { "title": "Беседки и скамьи",                 "img": "/img/razdel/metart.jpg"},
+  { "title": "Плиты перекрытия",                 "img": "/img/razdel/plity.jpg"},
+  { "title": "Облицовочный кирпич",              "img": "/img/razdel/oblic.jpg"},
+  { "title": "Бетонные смеси",                   "img": "/img/razdel/smesi.jpg"},
+  { "title": "Керамзит",                         "img": "/img/razdel/keramzit.jpg"},
+  { "title": "Арматурные изделия",               "img": "/img/razdel/armatur.jpeg"},
+  { "title": "Железобетонные изделия",           "img": "/img/razdel/zhelezobet.jpg"},
+  { "title": "Элементы благоустройства",         "img": "/img/razdel/blagoust.jpeg"},
+  { "title": "Игровое оборудование",             "img": "/img/razdel/detskoe.jpg"},
+  { "title": "Спортивное оборудование",          "img": "/img/razdel/sport.jpg"},
+  { "title": "Кладочные смеси",                  "img": "/img/razdel/rastvor.jpg"},
+  { "title": "Керамзитобетонные блоки",          "img": "/img/razdel/kerablock.jpg"},
+  { "title": "Камни бетонные бортовые",          "img": "/img/razdel/kamnibet.jpg"},
+  { "title": "Деревянные окна",                  "img": "/img/razdel/okna.jpg"}
+]
