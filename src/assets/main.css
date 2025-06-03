@@ -43,3 +43,8 @@ body {
   font-family: 'zekton';
   src: url(/public/fonts/zekton.ttf);
 }
+
+@font-face {
+  font-family: 'biocad';
+  src: url(/public/fonts/BiocadDisplay-Regular.ttf);
+}

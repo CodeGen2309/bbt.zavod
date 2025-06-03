@@ -1,0 +1,33 @@
+[
+  { 
+    "title": "Прямоугольник", 
+    "price": "от 850 руб.", 
+    "img": "/img/catrot/pryam.jpeg", 
+    "class": "grid__item_big",
+    "desc": "Тротуарная плитка ПРЯМОУГОЛЬНИК марки 1.П.4,5 применяется для мощения тротуаров, придомовых территорий частных строений (без заезда легкового и грузового автотранспорта)" 
+  }, 
+
+  { 
+    "title": "Классико", 
+    "price": "от 850 руб.",
+    "img": "/img/catrot/klassiko.jpg",
+    "class": "",
+    "desc": "" 
+  }, 
+
+  { 
+    "title": "Терраса", 
+    "price": "от 1 000 руб.", 
+    "img": "/img/catrot/terrassa.jpeg",
+    "class": "",
+    "desc": "" 
+  }, 
+
+  { 
+    "title": "Резиденция", 
+    "price": "от 1 000 руб.", 
+    "img": "/img/catrot/rezid.jpeg",
+    "class": "grid__item_wide",
+    "desc": "" 
+  }
+]
