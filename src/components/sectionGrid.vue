@@ -1,6 +1,7 @@
 <script setup>
   import CtlTitle from './ctlTitle.vue';
   import trot from '../mocks/ctlgTrot.json'
+  import { RouterLink } from 'vue-router';
 
 
   let props = defineProps(['title'])
@@ -14,27 +15,29 @@
     <CtlTitle :title="props.title"></CtlTitle>
 
     <div class="sgrid__list">
-      <div class="grid__item" 
+      <RouterLink class="grid__item" 
         v-for="item in trot"
+        to="/product"
         :class="item.class"
       >
         <img class="grid__itemImg" :src="item.img">
 
-        <p class="grid__itemDesc">
+        <div class="grid__itemDesc">
           <p class="grid__itemDescText" v-html="item.desc"></p>
 
           <div class="grid__buyButton">Подробнее</div>
-        </p>
+        </div>
 
         <p class="grid__itemTitle">{{ item.title }}</p>
 
         <div class="grid__itemFormer">
           <p class="grid__itemPrice">{{ item.price }}</p>
         </div>
-      </div>
+      </RouterLink>
     </div>
   </div>
 </template>
+
 
 <style>
   .sgrid__holder {
@@ -56,6 +59,8 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
+    text-decoration: none;
+    color: inherit;
 
     border-radius: 10px;
     background: #f2f2f2;

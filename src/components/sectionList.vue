@@ -1,14 +1,18 @@
 <script setup>
   import sectionList from "../mocks/razdel.json"
+  import { RouterLink } from "vue-router";
 
 </script>
 
 <template>
   <div class="ctlg__sectionList">
-    <div class="ctlg__sectionItem" v-for="item in sectionList">
+    <RouterLink class="ctlg__sectionItem" 
+      v-for="item in sectionList"
+      to="/category"
+    >
       <img class="ctlg__sectionImg" :src="item.img">
       <p class="ctlg__sectionTitle" v-html="item.title"></p>
-    </div>
+    </RouterLink>
   </div>
 </template>
 
@@ -25,6 +29,9 @@
   .ctlg__sectionItem {
     display: flex;
     height: 70px;
+    text-decoration: none;
+    color: inherit;
+
 
     box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, .2);
     border-radius: 10px;
@@ -39,6 +46,8 @@
   .ctlg__sectionItem:hover {
     transform: scale(1.05);
     box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, .4);
+    text-decoration: none;
+    color: inherit;
   }
 
   .ctlg__sectionImg {

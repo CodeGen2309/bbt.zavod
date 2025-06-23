@@ -23,9 +23,6 @@
     <Banner class="ctlg__banner"></Banner>
     <Podborka></Podborka>
 
-    <div class="podsec">
-      <img class="podsec__cover" src="/img/podborBack/back.jpg">
-    </div>
   </section>
 </template>
 
