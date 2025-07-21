@@ -83,7 +83,6 @@ function changeSide(side) {
 
             </div>
           </div>
-
         </Transition>
 
         <Transition name="fadeAnim">

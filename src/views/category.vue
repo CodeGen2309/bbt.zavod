@@ -97,7 +97,6 @@ let tabData = [
   margin: 20px;
 }
 
-
 .ctlg {
   position: relative;
 }

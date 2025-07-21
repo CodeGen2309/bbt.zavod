@@ -18,7 +18,6 @@
       { duration: .6 , delay: stagger(.2)}
     )
   })
-
 </script>
 
 
